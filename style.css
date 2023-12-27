@@ -1,0 +1,416 @@
+body {
+    background-color: rgb(208, 207, 248); 
+} 
+
+
+@media (min-width: 620px) {
+    #fixArea {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #03172a; 
+        z-index: 10; 
+        color: #ffffff; 
+    }
+
+    #activeArea {
+        margin-top: 140px; 
+        font-size: 18px;
+        font-weight: 500;
+        overflow-wrap: break-word; 
+        z-index: 1;
+    }
+
+    #indexArea {
+        margin-top: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        z-index: 1;
+    }
+
+    .buttonURL {
+        padding: 5px;
+        width: 90px;
+        margin-top: 4px;
+        margin-left: 4px;
+        background-color: #a33ce7;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        z-index: 1;
+    }
+
+    .buttonURL:hover {
+        color: #03172a;
+        font-weight: bold;
+    }
+
+    .buttonIndex {
+        margin: 5px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 110%;
+        background-color: #4cacaf;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        z-index: 1;
+    }
+
+    .buttonIndex:hover {
+        color: #03172a;
+    }
+
+    #buttonClear{
+        margin-left: 4px;
+        margin-bottom: 4px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #a33ce7;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        z-index: 1;
+    }
+
+    #buttonClear:hover {
+        color: #03172a;
+        font-weight: bold;
+    }
+
+    .buttonQuiz {
+        margin: 5px;
+        height: 50px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        font-weight: 525;
+        background-color: #4cacaf;
+        color: white;
+        border: 1mm ridge  #357376;
+        border-radius: 4px;
+        z-index: 1;
+        display: none;
+    }
+
+    .buttonQuiz:hover {
+        color: #03172a;
+        font-weight: 500;
+    }
+
+    .buttonAction {
+        margin: 0px;
+        left: 0;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 110%;
+        font-weight: 550;
+        background-color: rgb(228, 247, 213);
+        color: black;
+        border: double rgb(36, 96, 57);
+        border-radius: 4px;
+        z-index: 1;
+    }
+
+    .buttonAction:hover {
+        font-weight: lighter;
+        color: rgb(40, 40, 245);
+    }
+
+    #buttonEnd{
+        float: right;
+        display: none;
+    }
+
+    .buttonAction:hover {
+        font-weight: bold;
+    }
+
+
+    #imgBackground{
+        position: absolute;
+        width: 210px;
+        top: 4px;
+        right: 6px;
+        display: inline;
+        z-index: 1;
+        border-radius: 25% 15% / 15% 35%;
+    }
+
+    #imgPC{
+        position: absolute;
+        width: 100px;
+        top: 15px;
+        right: 27px;
+        display: inline;
+        z-index: 2;
+    }
+
+    #imgOmikuji{
+        position: absolute;
+        width: 40px;
+        top: 18px;
+        right: 137px;
+        display: none;
+        z-index: 2;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+
+    ul {
+        padding-left: 22px;
+        padding-right: 5px;
+    }
+
+    li {
+        margin-bottom: 18px;
+    }
+
+    #select {
+        padding: 10px;
+        margin: 1px;
+        margin-left: 50px;
+        margin-right: 100px;
+        font-size: 18px;
+        font-weight: 750;
+        color: white
+    }
+
+    #content {
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 100px;
+        font-size: 18px;
+        font-weight: 750;
+        color: white
+    }
+
+
+    input {
+        font-size: 130%;
+        padding: 5px;
+    }
+
+
+    #scoreSymbol{
+        font-weight: bold;
+        font-size: large;
+    }
+}
+
+
+@media (max-width: 620px) {
+    #fixArea {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-size: 12px;
+        background-color: #03172a; 
+        z-index: 10; 
+        color: #ffffff; 
+    }
+
+    #activeArea {
+        margin-top: 70px; 
+        font-size: 12px;
+        overflow-wrap: break-word; 
+        z-index: 1;
+    }
+
+    #indexArea {
+        margin-top: 145px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        z-index: 1;
+    }
+
+    .buttonURL {
+        padding: 3px;
+        width: auto;
+        margin-top: 2px;
+        margin-left: 2px;
+        font-size: 12px;
+        background-color: #a33ce7;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        z-index: 1;
+    }
+
+    .buttonURL:hover {
+        color: #03172a;
+        font-weight: bold;
+    }
+
+    .buttonIndex {
+        margin: 2px;
+        padding: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 12px;
+        background-color: #4cacaf;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        z-index: 1;
+    }
+
+    .buttonIndex:hover {
+        color: #03172a;
+    }
+
+    #buttonClear{
+        margin-left: 2px;
+        margin-bottom: 2px;
+        padding: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+        background-color: #a33ce7;
+        color: white;
+        border-radius: 2px;
+        z-index: 1;
+    }
+
+    #buttonClear:hover {
+        color: #03172a;
+        font-weight: bold;
+    }
+
+    .buttonQuiz {
+        margin: 2px;
+        height: auto;
+        padding: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 12px;
+        background-color: #4cacaf;
+        color: white;
+        border: 1mm ridge  #357376;
+        border-radius: 2px;
+        z-index: 1;
+        display: none;
+    }
+
+    .buttonQuiz:hover {
+        color: #03172a;
+        font-weight: 500;
+    }
+
+    .buttonAction {
+        margin: 0px;
+        left: 0;
+        padding: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+        background-color: rgb(228, 247, 213);
+        color: black;
+        border: double rgb(36, 96, 57);
+        border-radius: 2px;
+        z-index: 1;
+    }
+
+    .buttonAction:hover {
+        font-weight: lighter;
+        color: rgb(40, 40, 245);
+    }
+
+    #buttonEnd{
+        float: right;
+        display: none;
+    }
+
+    .buttonAction:hover {
+        font-weight: bold;
+    }
+
+
+    #imgBackground{
+        position: absolute;
+        width: 104px;
+        top: 2px;
+        right: 3px;
+        display: inline;
+        z-index: 1;
+        border-radius: 25% 15% / 15% 35%;
+    }
+
+    #imgPC{
+        position: absolute;
+        width: 50px;
+        top: 8px;
+        right: 12px;
+        display: inline;
+        z-index: 2;
+    }
+
+    #imgOmikuji{
+        position: absolute;
+        width: 20px;
+        top: 9px;
+        right: 66px;
+        display: none;
+        z-index: 2;
+    }
+
+
+    h1 {
+        margin-left: 5px;
+        font-size: small;
+    }
+
+    ul {
+        padding-left: 18px;
+        padding-right: 5px;
+    }
+
+    li {
+        margin: 2px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    #select {
+        padding: 0px;
+        margin: 20px;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 11px;
+        font-weight: 400;
+        color: white
+    }
+    
+    #content {
+        padding: 0px;
+        margin: -15px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 2px;
+        font-size: 11px;
+        font-weight: 400;
+        color: white
+    }
+
+    input {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+
+    #scoreSymbol{
+        font-weight: bold;
+        font-size: large;
+    }
+}
