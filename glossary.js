@@ -31,7 +31,7 @@ const glossary = [
 {target:`documentオブジェクト`, content:`DOMツリーのルートを指す。HTMLファイル全体に相当する`},
 {target:`window`, content:`DOM文書を収めるウィンドウを表す`},
 {target:`CSS（Cascading Style Sheets）`, content:`HTML要素にどんなスタイルをつけたいかを記述する言語。DOM要素では、すべてのDOM要素のstyleプロパティの中にある`},
-{target:`CSSプロパティ`, content:`DOM要素のスタイルプロパティは単なるオブジェクト。更新するには、element.style.*** = ''とする`},
+{target:`CSSプロパティ`, content:`関連付けられた値によりブラウザーがどのように要素を表示するかを定義する特性`},
 {target:`イベント`, content:`ユーザーのインプットなど、ソフトウェアが認識する何らかのアクション`},
 {target:`イベントリスナー`, content:`イベントが発生したら行われる動きを記述した関数を仕組む。イベントが発生したらその関数を呼び出し、関数が実行される。addEventlistener関数`},
 {target:`イベントオブジェクト`, content:`イベントリスナーに仕込んだ関数に渡す引数`},
