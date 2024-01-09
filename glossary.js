@@ -2,7 +2,7 @@
 `use strict`
 const glossary = [
 {target:`DOTYPE宣言`, content:`使用したいHTMLのバージョンをブラウザに伝えるコード`},
-{target:`html要素`, content:`Webページのルート要素。<head>と<body>が入る`},
+{target:`html要素`, content:`Webページのルート要素。headとbodyが入る`},
 {target:`head要素`, content:`Webページを表示するのにブラウザが必要とするデータ（metadata）が入る`},
 {target:`body要素`, content:`画面上に表示させたいすべてのデータが入る`},
 {target:`ブロック要素`, content:`画面上で要素は常に改行して始まり、使える幅いっぱいに広がる`},
