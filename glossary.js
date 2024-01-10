@@ -17,7 +17,7 @@ const glossary = [
 {target:`CSSレイアウトモード`, content:`ボックス（HTML要素）の位置やサイズを指定。`},
 {target:`CSSプロパティ`, content:`HTML文書内の要素にスタイルやレイアウトを適用するために使用。`},
 {target:`コンテンツ`, content:`Webページのテキストや画像など。`},
-{target:`パディング`, content:`Webページのコンテンツと箱の橋のギャップ。`},
+{target:`パディング`, content:`Webページのコンテンツと箱の境界の間隔。`},
 {target:`ボーダー`, content:`Webページの箱の四周の境界線。スタイル、幅、色の設定が可能。`},
 {target:`マージン`, content:`Webページで何も表示されない。周りの要素を外に追いやり入れない。`},
 {target:`Flowレイアウト`, content:`デフォルトで特に指定しない。HTMLファイルの中の順にしたがってブロック要素が上から下へ、インライン要素が右に流れる。`},
