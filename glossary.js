@@ -89,7 +89,7 @@ const glossary = [
 {target:`& lt;`, content:`小なり記号（<, 使用時スペース除く）。`},
 {target:`& gt;`, content:`大なり記号（>, 使用時スペース除く）。`},
 {target:`& copy;`, content:`コピーライト記号（@, 使用時スペース除く）。`},
-{target:`& quot;`, content:`ダブルクオート（+除く）。`},
+{target:`& quot;`, content:`ダブルクオート（使用時スペース除く）。`},
 {target:`&lt;article&gt;`, content:`記事やコンテンツのセクションを定義。<br>&lt;***&gt;<br>&emsp;&lt;h2&gt;Article Title&lt;/h2&gt;<br>&emsp;&lt;p&gt;Article content...&lt;/p&gt;<br>&lt;/***&gt;`},
 {target:`&lt;span&gt;`, content:`インライン要素でスタイルを適用するためのコンテナ。<br>&lt;*** style='color: red;'&gt;Red text&lt;/***&gt;`},
 {target:`&lt;audio&gt;`, content:`音声コンテンツを再生するための要素。<br>&lt;*** controls&gt;<br>&emsp;&lt;source src='audio.mp3' type='audio/mp3'&gt;<br>&lt;/***&gt;`},
