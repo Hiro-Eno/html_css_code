@@ -109,7 +109,7 @@ const glossary = [
 {target:`border`, content:`要素の境界線（ボーダー）のスタイル、太さ、色を指定するCSSプロパティ。<br>***: solid;`},
 {target:`padding`, content:`要素の内側の余白を指定するCSSプロパティ。<br>***: 10px 50px 20px;`},
 {target:`margin`, content:`要素の外側の余白を指定するCSSプロパティ。<br>***: 10px 50px 20px 0;`},
-{target:`display`, content:`HTML要素の表示を設定。noneは最初から無かったかのように要素を隠し、次の要素が繰り上がるCSSプロパティ。<br>***: none; ***: inline;`},
+{target:`display`, content:`HTML要素の表示を設定。noneは最初から無かったかのように要素を隠し、次の要素が繰り上がるCSSプロパティ。<br>***: none;&emsp;***: inline;`},
 {target:`flex`, content:`要素は、ブロック要素のように動作しつつ、そのコンテンツをフレックスボックスモデルに従ってレイアウトするCSS値。<br>display: ***;`},
 {target:`inline`, content:`要素は、ブロック要素のように動作しつつ、そのコンテンツをフレックスボックスモデルに従ってレイアウトするCSS値。<br>display: ***;`},
 {target:`inline-block`, content:`ブロック要素ボックスを生成しますが、周囲のコンテンツに対しては単一のインラインボックスであるかのように流れるようになるCSS値。<br>display: ***;`},
