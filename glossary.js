@@ -63,7 +63,7 @@ const glossary = [
 {target:`&lt;strong&gt;`, content:`強い強調を表す太字のテキスト。<br>&lt;***&gt;This is strong emphasized text.&lt;/***&gt;`},
 {target:`&lt;span&gt;`, content:`スタイルやイベントのためのインライン要素。<br>&lt;*** style='color: red;'&gt;Red text&lt;/***&gt;`},
 {target:`style`, content:`要素のインラインスタイルをCSS Style Declarationオブジェクトの形で返すHTML Elementの読み取り専用プロパティ。このオブジェクトは、その要素のインラインのstyle属性で定義されている属性に値が割り当てられ、その要素のすべてのスタイルプロパティのリストが入っている。スタイル宣言は、null または空文字列を設定することでリセットできる。<br>&lt;body ***='font-weight:bold'&gt;<br>element.***.backgroundColor = 'red'`},
-{target:`.cssText`, content:`CSS Style Sheetスタイルルールの実際のテキストを返すCSSRuleインターフェイスのプロパティ。<br>Element.style.*** = 'width: 300px; position: relative; top: 250px; left: 250px';`},
+{target:`.cssText`, content:`CSS Style Sheetスタイルルールの実際のテキストを返すCSSRuleインターフェイスのプロパティ。JavaScriptでCSS表記のままスタイルを指定できる。<br>Element.style.*** = 'width: 300px; position: relative; top: 250px; left: 250px';`},
 {target:`&lt;br&gt;`, content:`改行を挿入。<br>&lt;p&gt;First line&lt;***&gt;Second line&lt;/p&gt;`},
 {target:`id`, content:`要素に一意の識別子を付与。<br>&lt;div ***='main-content'&gt;...&lt;/div&gt;`},
 {target:`class`, content:`複数の要素に同じスタイルを適用するためのクラス。<br>&lt;p ***='highlight'&gt;This is highlighted text.&lt;/p&gt;`},
