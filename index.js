@@ -31,7 +31,7 @@ function createButtons(array) {
 function display(target, contentTarget) {
     const select = document.getElementById("select");
     const content = document.getElementById("content");
-    select.innerText = `Select:\t${target}`;
+    select.innerHTML = `Select:\t${target}`;
     content.innerHTML = `Content:\t${contentTarget}`;
     // content.innerText = `Content:\t${contentTarget}`;
 
