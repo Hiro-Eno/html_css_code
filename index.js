@@ -11,7 +11,7 @@ function createButtons(array) {
 
     for (const object of array) {
         const button = document.createElement("button");
-        button.innerText = object.target;
+        button.innerHTML = object.target;
         button.className = "buttonIndex";
         button.onclick = function () {
             display(object.target, object.content);
