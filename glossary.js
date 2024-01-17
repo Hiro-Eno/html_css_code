@@ -47,6 +47,7 @@ const glossary = [
 {target:`&lt;a&gt;`, content:`ハイパーテキストをリンク。<br>&lt;*** href='https://example.com'&gt;Visit Example&lt;/***&gt;`},
 {target:`href`, content:`ハイパーリンク先を指定する属性。<br>&lt;a ***='https://example.com'&gt;Visit Example&lt;/a&gt;`},
 {target:`&lt;script&gt;`, content:`JavaScriptコードを挿入。<br>&lt;*** type='text/javascript' src='script.js'&gt;&lt;/***&gt;`},
+{target:`defer`, content:`HTML パース完了後、DOMContentLoadedイベントの直前にJavaScriptファイルを実行。<br>&lt;script type='text/javascript' src='script.js' ***&gt;&lt;/script&gt;`},
 {target:`type`, content:`リンク先やスクリプトのタイプを指定する属性。<br>&lt;script ***='text/javascript' src='script.js'&gt;&lt;/script&gt;`},
 {target:`&lt;title&gt;`, content:`ページのタイトルを指定。<br>&lt;***&gt;Document&lt;/***&gt;`},
 {target:`&lt;body&gt;`, content:`ページの本文を含む。<br>&lt;***&gt;...&lt;/***&gt;`},
