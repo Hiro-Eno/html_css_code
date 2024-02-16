@@ -187,6 +187,7 @@ const glossary = [
 {target:`z-index`, content:`要素のスタッキングコンテキストの位置を指定するCSSプロパティ。<br>***: 3;→要素のスタッキングコンテキストの位置を3に指定`},
 {target:`background`, content:`色、画像、原点と寸法、反復方法など、背景に関するすべてのスタイルプロパティを一括で設定するCSSプロパティ。<br>***: #000;`},
 {target:`linear-gradient`, content:`二つ以上の色の連続的な直線に沿った変化から構成される画像を生成するCSS関数。<br>background: ***(#FFD700, #FF4500);`},
+{target:`radial-gradient`, content:`二つ以上の色の連続的な推移が原点から放射状に広がる画像を生成するCSS関数。<br>background: ***(#e66465, #9198e5);<br>background: ***(closest-side, #3f87a6, #ebf8e1, #f69d3c);<br>background: ***(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);<br><br>background: ***(ellipse at top, #e66465, transparent),<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;***(ellipse at bottom, #4d9f0c, transparent);`},
 {target:`url`, content:`リンク先URL指定するCSS関数。<br>background: ***('image.jpg');`},
 {target:`transparent`, content:`透明色のCSS値。<br>background-color: ***;`},
 {target:`border-bottom`, content:`要素の下側の境界のプロパティをすべて設定するCSSプロパティ。<br>***: dashed red;`},
