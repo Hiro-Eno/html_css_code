@@ -44,7 +44,7 @@ const glossary = [
 {target:`content`, content:`name属性で指定されたメタタグの内容を指定する属性。<br> &lt;meta name='theme-color' ***='#000000'&gt;`},
 {target:`&lt;link&gt;`, content:`外部リソースを読み込む。<br>&lt;*** rel='stylesheet' type='text/css' href='style.css'&gt;`},
 {target:`rel`, content:`リンク先との関係を指定する属性。<br>&lt;link ***='stylesheet' href='styles.css'&gt;`},
-{target:`&lt;a&gt;`, content:`ハイパーテキストをリンク。<br>&lt;*** href='https://example.com'&gt;Visit Example&lt;/***&gt;<br>&lt;*** href='#about'&gt;About&lt;/***&gt;`},
+{target:`&lt;a&gt;`, content:`ハイパーテキストをリンクするHTML要素。href 属性を用いて、別のウェブページ、ファイル、メールアドレス、同一ページ内の場所、または他の URL へのハイパーリンクを作成。<br>&lt;*** href='https://example.com'&gt;Visit Example&lt;/***&gt;<br>&lt;*** href='#about'&gt;About&lt;/***&gt; → HP内の指定Idに移動<br>&lt;*** href='mailto:test@example.com?subject=お問い合わせ'&gt;Email&lt;/***&gt;<br>&lt;*** href='tel:+123456789'&gt;Phone&lt;/***&gt;<br><br>&lt;*** href='https://example.com'&gt;<br>&emsp;&lt;img src='example.jpg' alt=''&gt;<br>&lt;/***&gt; → 挟み込むことで画像クリックでリンクに移動`},
 {target:`href`, content:`ハイパーリンク先を指定する属性。<br>&lt;a ***='https://example.com'&gt;Visit Example&lt;/a&gt;<br>&lt;a ***='#about'&gt;About&lt;/a&gt;`},
 {target:`&lt;script&gt;`, content:`JavaScriptコードを挿入。<br>&lt;*** type='text/javascript' src='script.js'&gt;&lt;/***&gt;`},
 {target:`defer`, content:`HTML パース完了後、DOMContentLoadedイベントの直前にJavaScriptファイルを実行。<br>&lt;script type='text/javascript' src='script.js' ***&gt;&lt;/script&gt;`},
