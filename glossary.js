@@ -248,7 +248,7 @@ const glossary = [
 {target:`transition-duration`, content:`トランジションによるアニメーションが完了するまでの所要時間を秒数またはミリ秒数で指定するCSSプロパティ。既定値の0sはアニメーションを実行しないことを意味する。<br>***: 10s, 30s, 230ms;`},
 {target:`transition-property`, content:`トランジション効果を適用する CSSプロパティを指定するCSSプロパティ。<br>***: all;<br>***: margin-right, color;`},
 {target:`z-index`, content:`要素のスタッキングコンテキストの位置を指定するCSSプロパティ。<br>***: 3; → 要素のスタッキングコンテキストの位置を3に指定`},
-{target:`background`, content:`色、画像、原点と寸法、反復方法など、背景に関するすべてのスタイルプロパティを一括で設定するCSSプロパティ。<br>***: #000;`},
+{target:`background`, content:`色、画像、原点と寸法、反復方法など、背景に関するすべてのスタイルプロパティを一括で設定するCSSプロパティ。<br>***: #000;<br><br>#main { → 背景が左下に動くアニメーション<br>&emsp;background: url('img.jpeg') repeat;<br>&emsp;animation: fall 10s infinite linear;<br>}<br>@keyframes fall {<br>&emsp;0% {background-position: 0 0;}<br>&emsp;100% {background-position: -700px 700px;}<br>}`},
 {target:`linear-gradient`, content:`二つ以上の色の連続的な直線に沿った変化から構成される画像を生成するCSS関数。<br>background: ***(#FFD700, #FF4500);`},
 {target:`radial-gradient`, content:`二つ以上の色の連続的な推移が原点から放射状に広がる画像を生成するCSS関数。<br>background: ***(#e66465, #9198e5);<br>background: ***(closest-side, #3f87a6, #ebf8e1, #f69d3c);<br>background: ***(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);<br><br>background: ***(ellipse at top, #e66465, transparent),<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;***(ellipse at bottom, #4d9f0c, transparent);`},
 {target:`url`, content:`リンク先URL指定するCSS関数。<br>background: ***('image.jpg');`},
