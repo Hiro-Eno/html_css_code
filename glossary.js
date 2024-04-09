@@ -71,7 +71,7 @@ const glossary = [
 {target:`name`, content:`入力欄コントロールの名前。名前/値の組の部分としてフォームと一緒に送信される。<br>&lt;select ***='fruits'&gt;...&lt;/select&gt;`},
 {target:`&lt;option&gt;`, content:`ドロップダウンリストの選択肢を定義。<br>&lt;*** value='pig'&gt;Pig&lt;/option&gt;`},
 {target:`value`, content:`この選択肢が選択された場合に送信される値を指定。<br>&lt;option ***='horse'&gt;Horse&lt;/option&gt;`},
-{target:`&lt;input&gt;`, content:`ユーザーからデータを受け取るための、ウェブベースのフォーム用の操作可能なコントロールを作成するためのHTML要素。この要素の動作は type 属性の値に応じて大きく異なる。<br>&lt;*** type='text' id='name' name='name' placeholder='Enter your username' required minlength='4' maxlength='8' size='10' /&gt;`},
+{target:`&lt;input&gt;`, content:`ユーザーからデータを受け取るための、ウェブベースのフォーム用の操作可能なコントロールを作成するためのHTML要素。この要素の動作は type 属性の値に応じて大きく異なる。入力した値はvalueプロパティで取得。<br>&lt;*** type='text' id='name' name='name' placeholder='Enter your username' required minlength='4' maxlength='8' size='10' /&gt;<br>const inputText = document.getElementByTagName('***').value;`},
 {target:`placeholder`, content:`ユーザーが入力するべき内容を示すプレースホルダーテキストを指定。<br>&lt;input type='text' ***='Enter your username'&gt;`},
 {target:`required`, content:`論理属性であり、所有するフォームが送信される前に、ユーザーが入力欄の値を指定しなければならないことを示すinputの属性。`},
 {target:`text`, content:`type属性で指定するinputの型の既定値。単一行のテキスト入力欄。改行は自動的に入力値から取り除かれる。<br>&lt;input type='***' id='name' name='name' required minlength='4' maxlength='8' size='10' /&gt;`},
